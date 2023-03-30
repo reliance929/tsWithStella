@@ -3,6 +3,7 @@ import React from 'react';
 import classNames from 'classnames/bind';
 
 import styles from 'assets/css/default.module.scss';
+import Header from 'layout/header/headerContainer';
 
 const cx = classNames.bind(styles);
 
@@ -18,7 +19,9 @@ const App = () => {
     <div className={cx('App')}>
       <section className={cx('layer')}>
         <article>
-          <div className={cx('head')}>헤더부분</div>
+          <div className={cx('header')}>
+            <Header />
+          </div>
           <div className={cx('content')}>
             <div>{cardlist}</div>
           </div>
