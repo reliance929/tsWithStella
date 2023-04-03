@@ -15,12 +15,15 @@ const Header = () => {
       <div className={cx('containers')}>
         <div className={cx('start')}>
           <img src={ic_1} className={cx('ic_1')} alt="jimin_1" />
+          <p>지민</p>
         </div>
         <div className={cx('center')}>
           <img src={ic_2} className={cx('ic_2')} alt="jimin_2" />
+          <p>지민</p>
         </div>
         <div className={cx('end')}>
           <img src={ic_3} className={cx('ic_3')} alt="jimin_3" />
+          <p>지민</p>
         </div>
       </div>
     </header>
